@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Pricing Table</title>
+    
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+<!-- partial:index.partial.html -->
+  <div class="container">
+    <div class="top">
+      <h1>Plans & Pricing</h1>
+      <div class="toggle-btn">
+        <span style="margin: 0.8em;">Annually</span>
+        <label class="switch">
+          <input type="checkbox" id="checbox" onclick="check()" ; />
+          <span class="slider round"></span>
+        </label>
+        <span style="margin: 0.8em;">Monthly</span></div>
+    </div>
+
+    <div class="package-container">
+      <div class="packages">
+        <h1>Basic</h1>
+        <h2 class="text1">&#8377;
+          9.99</h2>
+        <h2 class="text2">&#8377;119.99</h2>
+        <ul class="list">
+          <li class="first">2000 Subscribers</li>
+          <li>12,000 Emails/month</li>
+          <li>Multi-User Accounts</li>
+          <li>Email Support</li>
+        </ul>
+        <a href="#" class="button button1">Start Now</a>
+      </div>
+      <div class="packages">
+        <h1>Professional</h1>
+        <h2 class="text1">&#8377;19.99</h2>
+        <h2 class="text2">&#8377;239.99</h2>
+        <ul class="list">
+          <li class="first">Basic +</li>
+          <li>Landing Pages</li>
+          <li>Pop-up Forms</li>
+          <li>Premium Support</li>
+        </ul>
+        <a href="#" class="button button2">Start Now</a>
+      </div>
+      <div class="packages">
+        <h1>Master</h1>
+        <h2 class="text1">&#8377;29.99</h2>
+        <h2 class="text2">&#8377;359.99</h2>
+        <ul class="list">
+          <li class="first">Professional +</li>
+          <li>Marketing Automation</li>
+          <li>Instagram Ads</li>
+          <li>Facebook Ads</li>
+        </ul>
+        <a href="#" class="button button3">Start Now</a>
+      </div>
+    </div>
+  </div>
+
+
+    		
+           
+    		</div>
+		</div>
+    </div>
+</section>
+     
+
+   
+
+	</body>
+  
+  <!-- partial -->
+  <script>
+function check() {
+  var checkBox = document.getElementById("checbox");
+  var text1 = document.getElementsByClassName("text1");
+  var text2 = document.getElementsByClassName("text2");
+
+  for (var i = 0; i < text1.length; i++) {
+    if (checkBox.checked == true) {
+      text1[i].style.display = "block";
+      text2[i].style.display = "none";
+    } else if (checkBox.checked == false) {
+      text1[i].style.display = "none";
+      text2[i].style.display = "block";
+    }
+  }
+}
+check();                  
+                  
+                  
+</script>
+</html>
