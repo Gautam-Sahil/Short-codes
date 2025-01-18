@@ -1,4 +1,2 @@
 # Short-codes
-In this folder, you will find a collection of reusable snippets designed for various UI components and interactive elements. These elements include, but are not limited to, navigational arrows, buttons, icons, and other interface components that can easily be integrated into your projects. 
-
- https://gautam-sahil.github.io/Short-codes/Plans%20%26%20Pricing%20Index
+In this folder, you will find a collection of reusable snippets designed for various UI components and interactive elements. These elements include, but are not limited to, navigational arrows, buttons, icons, and other interface components that can easily be integrated into your projects. You can visit all the folders where i have uploaded there codes with the live links to see how it looks.
